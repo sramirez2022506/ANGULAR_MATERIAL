@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "datepickers": {
+    "FAB": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/datepickers",
+            "outputPath": "dist/fab",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "datepickers:build:production"
+              "buildTarget": "FAB:build:production"
             },
             "development": {
-              "buildTarget": "datepickers:build:development"
+              "buildTarget": "FAB:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "558c3f07-c05f-45b2-8680-f7c77b8840d2"
+    "analytics": "9b133f7e-dd94-4415-bdea-41bc62ad68b8"
   }
 }

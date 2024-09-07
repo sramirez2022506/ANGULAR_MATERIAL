@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DatepickerMDYComponent } from './datepicker-mdy.component';
+import { ButtonFabComponent } from './button-fab.component';
 
-describe('DatepickerMDYComponent', () => {
-  let component: DatepickerMDYComponent;
-  let fixture: ComponentFixture<DatepickerMDYComponent>;
+describe('ButtonFabComponent', () => {
+  let component: ButtonFabComponent;
+  let fixture: ComponentFixture<ButtonFabComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [DatepickerMDYComponent]
+      imports: [ButtonFabComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DatepickerMDYComponent);
+    fixture = TestBed.createComponent(ButtonFabComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
