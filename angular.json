@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "FAB": {
+    "stepper": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/fab",
+            "outputPath": "dist/stepper",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "FAB:build:production"
+              "buildTarget": "stepper:build:production"
             },
             "development": {
-              "buildTarget": "FAB:build:development"
+              "buildTarget": "stepper:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "9b133f7e-dd94-4415-bdea-41bc62ad68b8"
+    "analytics": "9204c0ed-ed91-4425-97d9-f05594649ce3"
   }
 }
